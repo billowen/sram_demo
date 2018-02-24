@@ -6,7 +6,7 @@ import java.util.List;
 public class DieDisplayData {
     private int dieX, dieY;
     private String failType;
-    private List<Bit> data = new ArrayList<>();
+    private List<Integer> data = new ArrayList<>();
 
     public int getDieX() {
         return dieX;
@@ -32,11 +32,11 @@ public class DieDisplayData {
         this.failType = failType;
     }
 
-    public List<Bit> getData() {
+    public List<Integer> getData() {
         return data;
     }
 
-    public void setData(List<Bit> data) {
+    public void setData(List<Integer> data) {
         this.data = data;
     }
 }
